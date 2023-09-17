@@ -21,5 +21,116 @@ header nav a{
 }
 header nav a:hover{
     font-size: 22px;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 2px white;
+}
+
+main .hero{
+    height: 100vh;
+}
+main .hero img{
+    position: absolute;
+    margin: 0 auto;
+    width: 645px;
+    left: 37%;
+    top: -6%;
+    z-index: -1;
+}
+main .hero .caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 178, 178,0.4);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    left: 22%;
+    top: 10%;
+    z-index: -2;
+    
+}
+main .hero .caja2  i, p{
+    font-size: 20px;
+}
+main .hero .caja3{
+    width: 810px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    position: relative;
+    top: 20%;
+    z-index: -3;
+}
+main .hero .caja3 p{
+    color: antiquewhite;
+    font-size: 22px;
+}
+main .hero .caja4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 913px;
+    background-color: rgb(182, 178, 178,0.4);
+    position: relative;
+    top: 5%;
+    left: 52%;
+    z-index: -4;
+}
+main .hero .caja4 p{
+    font-size: 60px;
+    color: beige;
+    opacity: .4;
+}
+main .hero .caja5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 910px;
+    height: 150px;
+    position: relative;
+    top: -5%;
+    left: 52%;
+    z-index: -2;
+}
+main .hero .caja5 p{
+    font-size: 30px;
+}
+main .hero .caja6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    left: 53%;
+    top: -4%;
+    z-index: -4;
+}
+main .hero .caja6 p, a{
+    color: antiquewhite;
+}
+main .hero .contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+main .hero .contenedor .caja7 h2{
+    font-size: 35px;
+}
+main .hero .contenedor .caja7 p{
+    font-size: 25px;
+}
+main .hero .contenedor .caja8 h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px black;
+}
+main .hero .contenedor .caja8 p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px  black;
 }
